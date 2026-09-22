@@ -15,7 +15,9 @@ def deal_card(hand):
 
 
 def display_hands(player_hand, dealer_hand):
-    """Displays the user and dealer hand"""
+    """
+    Displays the user and dealer hand
+    """
     print(f"\nYour hand: {player_hand}\nDealer's first card: {dealer_hand[0]}")
 
 
